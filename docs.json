@@ -1,68 +1,118 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Fluxo de Caixa",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentação",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Primeiros passos",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "primeiros-passos/visao-geral/boas-vindas",
+              "primeiros-passos/visao-geral/visao-geral",
+              "primeiros-passos/visao-geral/aplicativo-e-celular"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Contas a pagar e receber",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "contas-a-pagar-e-receber/contas-a-pagar-e-receber/contas-a-pagar-e-a-receber",
+              "contas-a-pagar-e-receber/contas-a-pagar-e-receber/realizar-baixa-com-valores-realizados",
+              "contas-a-pagar-e-receber/contas-a-pagar-e-receber/lista-de-contas",
+              "contas-a-pagar-e-receber/contas-a-pagar-e-receber/anexos-de-contas"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Contas recorrentes",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "contas-a-pagar-e-receber/contas-recorrentes/cadastrar-contas-recorrentes",
+              "contas-a-pagar-e-receber/contas-recorrentes/editar-conta-recorrente",
+              "contas-a-pagar-e-receber/contas-recorrentes/deletar-conta-recorrente"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Contas parceladas",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "contas-a-pagar-e-receber/contas-parceladas/contas-parceladas"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Opções avançadas",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "contas-a-pagar-e-receber/opcoes-avancadas/salvar-para-excel",
+              "contas-a-pagar-e-receber/opcoes-avancadas/bloqueio-mensal-de-contas",
+              "contas-a-pagar-e-receber/opcoes-avancadas/categorias-de-contas",
+              "contas-a-pagar-e-receber/opcoes-avancadas/usando-os-recursos-de-auditoria"
+            ]
+          },
+          {
+            "group": "Cobrança e Recibos",
+            "pages": [
+              "contas-a-pagar-e-receber/envio-de-cobranca-pix-e-recibos/envio-de-cobranca-por-pix-ou-dados-bancarios",
+              "contas-a-pagar-e-receber/envio-de-cobranca-pix-e-recibos/gerar-e-enviar-recibos-por-e-mail"
+            ]
+          },
+          {
+            "group": "Contratos",
+            "pages": [
+              "contratos/contratos/cadastrar-contrato",
+              "contratos/contratos/receber-parcela-relacionada-a-contrato"
+            ]
+          },
+          {
+            "group": "Clientes e Fornecedores",
+            "pages": [
+              "clientes-e-fornecedores/clientes-e-fornecedores/integracao-com-whatsapp"
+            ]
+          },
+          {
+            "group": "Usuários e Permissões",
+            "pages": [
+              "usuarios-e-permissoes/usuarios-e-permissoes/alterar-sua-senha",
+              "usuarios-e-permissoes/usuarios-e-permissoes/cadastrar-novos-usuarios",
+              "usuarios-e-permissoes/usuarios-e-permissoes/permissoes-de-usuarios",
+              "usuarios-e-permissoes/usuarios-e-permissoes/como-recuperar-sua-senha"
+            ]
+          },
+          {
+            "group": "Dashboard e Relatórios",
+            "pages": [
+              "dashboard-e-relatorios/dashboard-e-relatorios/dashboard",
+              "dashboard-e-relatorios/dashboard-e-relatorios/relatorio-de-fluxo-de-caixa",
+              "dashboard-e-relatorios/dashboard-e-relatorios/calendario-de-contas",
+              "dashboard-e-relatorios/dashboard-e-relatorios/relatorio-resultado-anual"
+            ]
+          },
+          {
+            "group": "Inteligência Artificial",
+            "pages": [
+              "inteligencia-artificial/assistente-virtual/assistente-virtual",
+              "inteligencia-artificial/importar-extrato-fatura/importar-extrato-fatura"
+            ]
+          },
+          {
+            "group": "Financeiro",
+            "pages": [
+              "financeiro/financeiro/como-realizar-a-assinatura",
+              "financeiro/financeiro/o-que-acontece-se-eu-atrasar-o-pagamento",
+              "financeiro/financeiro/como-cancelar-a-assinatura"
+            ]
+          },
+          {
+            "group": "Perguntas frequentes",
+            "pages": [
+              "faqs/perguntas-frequentes/esqueci-minha-senha",
+              "faqs/perguntas-frequentes/problema-com-certificado",
+              "faqs/perguntas-frequentes/como-reportar-um-erro-no-sistema",
+              "faqs/perguntas-frequentes/resolvendo-problema-de-datas"
             ]
           }
         ]
@@ -71,52 +121,36 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Fluxo de Caixa",
+          "href": "https://www.fluxodecaixa.net.br",
+          "icon": "chart-line"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Acessar o sistema",
+          "href": "https://app.fluxodecaixa.net.br",
+          "icon": "arrow-right-to-bracket"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/fluxo-logo-light.png",
+    "dark": "/logo/fluxo-logo-dark.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Suporte",
+        "href": "mailto:financeiro@fluxodecaixa.net.br"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Acessar",
+      "href": "https://app.fluxodecaixa.net.br"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "socials": {}
   }
 }
